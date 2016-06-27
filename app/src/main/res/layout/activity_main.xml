@@ -59,9 +59,11 @@
             android:text="@string/Q2A1"
             style="@style/AnswerOption"/>
         <CheckBox
+            android:id="@+id/q2_correct_checkbox_1"
             android:text="@string/Q2A2"
             style="@style/AnswerOption"/>
         <CheckBox
+            android:id="@+id/q2_correct_checkbox_2"
             android:text="@string/Q2A3"
             style="@style/AnswerOption"/>
         <CheckBox
