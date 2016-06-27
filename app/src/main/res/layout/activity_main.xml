@@ -80,10 +80,10 @@
             android:text="@string/Q3"
             style="@style/QuestionText" />
     </LinearLayout>
-    <RadioGroup
+    <EditText
         style="@style/AnswerGroup">
 
-    </RadioGroup>
+    </EditText>
 
     <View style="@style/Divider" />
 
