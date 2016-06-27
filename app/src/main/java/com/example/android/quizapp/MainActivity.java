@@ -58,7 +58,10 @@ public class MainActivity extends AppCompatActivity {
     public boolean checkQ2(){
         CheckBox q2Correct1 = (CheckBox)findViewById(R.id.q2_correct_checkbox_1);
         CheckBox q2Correct2 = (CheckBox)findViewById(R.id.q2_correct_checkbox_2);
-        return q2Correct1.isChecked() && q2Correct2.isChecked();
+        CheckBox q2Incorrect1 = (CheckBox)findViewById(R.id.q2_incorrect_checkbox_1);
+        CheckBox q2Incorrect2 = (CheckBox)findViewById(R.id.q2_incorrect_checkbox_2);
+
+        return q2Correct1.isChecked() && q2Correct2.isChecked() && !q2Incorrect1.isChecked() && !q2Incorrect2.isChecked();
     }
 
     public boolean checkQ4(){
