@@ -21,9 +21,15 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     String msg = "";
                     if (checkQ1()){
-                        msg += "\n1. Correct! The Declaration of Independence was signed on July 4, 1776.";
+                        msg += "\n1. Correct! The Declaration of Independence was signed on July 4, 1776.\n";
                     } else {
-                        msg += "\n1. Try again!";
+                        msg += "\n1. Try again!\n";
+                    }
+
+                    if (checkQ4()){
+                        msg += "\n4. Correct! The First Continental Congress met in Philadelphia, PA.\n";
+                    } else {
+                        msg += "\n4. Try again!\n";
                     }
                     Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
                 }
@@ -32,7 +38,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean checkQ1(){
-        RadioButton q1Correct = (RadioButton)findViewById(R.id.q1_radio);
+        RadioButton q1Correct = (RadioButton)findViewById(R.id.q1_correct_radio);
         return q1Correct.isChecked();
+    }
+
+    public boolean checkQ4(){
+        RadioButton q4Correct = (RadioButton)findViewById(R.id.q4_correct_radio);
+        return q4Correct.isChecked();
     }
 }
