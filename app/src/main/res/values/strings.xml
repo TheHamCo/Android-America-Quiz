@@ -7,4 +7,11 @@
     <string name="Q1A2">July 4, 1776</string>
     <string name="Q1A3">July 4, 1776</string>
     <string name="Q1A4">July 4, 1776</string>
+
+    <string name="Q2num">2.</string>
+    <string name="Q2">Which of the following were presidents of the United States?</string>
+    <string name="Q2A1">Alexander Hamilton</string>
+    <string name="Q2A2">George Washington</string>
+    <string name="Q2A3">Thomas Jefferson</string>
+    <string name="Q2A4">Benjamin Franklin</string>
 </resources>

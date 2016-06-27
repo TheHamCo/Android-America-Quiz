@@ -13,6 +13,7 @@
     android:layout_marginRight="@dimen/activity_horizontal_margin"
     tools:context="com.example.android.quizapp.MainActivity">
 
+    <!--Question 1-->
     <LinearLayout
         style="@style/QuestionLayout">
         <TextView
@@ -40,6 +41,36 @@
 
     <View style="@style/Divider" />
 
+    <!--Question 2-->
+    <LinearLayout
+        style="@style/QuestionLayout">
+        <TextView
+            android:text="@string/Q2num"
+            style="@style/QuestionNum" />
+        <TextView
+            android:text="@string/Q2"
+            style="@style/QuestionText" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/AnswerGroup">
+        <CheckBox
+            android:text="@string/Q2A1"
+            style="@style/AnswerOption"/>
+        <CheckBox
+            android:text="@string/Q2A2"
+            style="@style/AnswerOption"/>
+        <CheckBox
+            android:text="@string/Q2A3"
+            style="@style/AnswerOption"/>
+        <CheckBox
+            android:text="@string/Q2A4"
+            style="@style/AnswerOption"/>
+    </LinearLayout>
+
+    <View style="@style/Divider" />
+
+    <!--Question 3-->
     <LinearLayout
         style="@style/QuestionLayout">
         <TextView
@@ -67,6 +98,7 @@
 
     <View style="@style/Divider" />
 
+    <!--Question 4-->
     <LinearLayout
         style="@style/QuestionLayout">
         <TextView
@@ -94,6 +126,7 @@
 
     <View style="@style/Divider" />
 
+    <!--Question 5-->
     <LinearLayout
         style="@style/QuestionLayout">
         <TextView
