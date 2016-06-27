@@ -144,6 +144,7 @@
     <View style="@style/Divider" />
 
     <Button
+        android:id="@+id/submit_button"
         android:text="@string/SubmitButton"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_width="match_parent"
