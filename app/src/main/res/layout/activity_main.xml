@@ -74,26 +74,15 @@
     <LinearLayout
         style="@style/QuestionLayout">
         <TextView
-            android:text="@string/Q1num"
+            android:text="@string/Q3num"
             style="@style/QuestionNum" />
         <TextView
-            android:text="@string/Q1"
+            android:text="@string/Q3"
             style="@style/QuestionText" />
     </LinearLayout>
     <RadioGroup
         style="@style/AnswerGroup">
-        <RadioButton
-            android:text="@string/Q1A1"
-            style="@style/AnswerOption"/>
-        <RadioButton
-            android:text="@string/Q1A2"
-            style="@style/AnswerOption"/>
-        <RadioButton
-            android:text="@string/Q1A3"
-            style="@style/AnswerOption"/>
-        <RadioButton
-            android:text="@string/Q1A4"
-            style="@style/AnswerOption"/>
+
     </RadioGroup>
 
     <View style="@style/Divider" />
@@ -102,25 +91,25 @@
     <LinearLayout
         style="@style/QuestionLayout">
         <TextView
-            android:text="@string/Q1num"
+            android:text="@string/Q4num"
             style="@style/QuestionNum" />
         <TextView
-            android:text="@string/Q1"
+            android:text="@string/Q4"
             style="@style/QuestionText" />
     </LinearLayout>
     <RadioGroup
         style="@style/AnswerGroup">
         <RadioButton
-            android:text="@string/Q1A1"
+            android:text="@string/Q4A1"
             style="@style/AnswerOption"/>
         <RadioButton
-            android:text="@string/Q1A2"
+            android:text="@string/Q4A2"
             style="@style/AnswerOption"/>
         <RadioButton
-            android:text="@string/Q1A3"
+            android:text="@string/Q4A3"
             style="@style/AnswerOption"/>
         <RadioButton
-            android:text="@string/Q1A4"
+            android:text="@string/Q4A4"
             style="@style/AnswerOption"/>
     </RadioGroup>
 
@@ -130,25 +119,25 @@
     <LinearLayout
         style="@style/QuestionLayout">
         <TextView
-            android:text="@string/Q1num"
+            android:text="@string/Q5num"
             style="@style/QuestionNum" />
         <TextView
-            android:text="@string/Q1"
+            android:text="@string/Q5"
             style="@style/QuestionText" />
     </LinearLayout>
     <RadioGroup
         style="@style/AnswerGroup">
         <RadioButton
-            android:text="@string/Q1A1"
+            android:text="@string/Q5A1"
             style="@style/AnswerOption"/>
         <RadioButton
-            android:text="@string/Q1A2"
+            android:text="@string/Q5A2"
             style="@style/AnswerOption"/>
         <RadioButton
-            android:text="@string/Q1A3"
+            android:text="@string/Q5A3"
             style="@style/AnswerOption"/>
         <RadioButton
-            android:text="@string/Q1A4"
+            android:text="@string/Q5A4"
             style="@style/AnswerOption"/>
     </RadioGroup>
 

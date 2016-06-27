@@ -14,4 +14,21 @@
     <string name="Q2A2">George Washington</string>
     <string name="Q2A3">Thomas Jefferson</string>
     <string name="Q2A4">Benjamin Franklin</string>
+
+    <string name="Q3num">3.</string>
+    <string name="Q3">Which of the following were presidents of the United States?</string>
+
+    <string name="Q4num">4.</string>
+    <string name="Q4">Which of the following were presidents of the United States?</string>
+    <string name="Q4A1">Washington, DC</string>
+    <string name="Q4A2">NYC</string>
+    <string name="Q4A3">Thomas Jefferson</string>
+    <string name="Q4A4">Benjamin Franklin</string>
+
+    <string name="Q5num">5.</string>
+    <string name="Q5">Which of the following were presidents of the United States?</string>
+    <string name="Q5A1">Alexander Hamilton</string>
+    <string name="Q5A2">George Washington</string>
+    <string name="Q5A3">Thomas Jefferson</string>
+    <string name="Q5A4">Benjamin Franklin</string>
 </resources>
