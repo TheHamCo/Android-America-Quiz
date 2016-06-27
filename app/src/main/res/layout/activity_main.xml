@@ -81,9 +81,8 @@
             style="@style/QuestionText" />
     </LinearLayout>
     <EditText
-        style="@style/AnswerGroup">
-
-    </EditText>
+        android:hint="@string/Q3hint"
+        style="@style/AnswerGroup"/>
 
     <View style="@style/Divider" />
 
@@ -125,21 +124,22 @@
             android:text="@string/Q5"
             style="@style/QuestionText" />
     </LinearLayout>
-    <RadioGroup
+    <LinearLayout
+        android:orientation="vertical"
         style="@style/AnswerGroup">
-        <RadioButton
+        <CheckBox
             android:text="@string/Q5A1"
             style="@style/AnswerOption"/>
-        <RadioButton
+        <CheckBox
             android:text="@string/Q5A2"
             style="@style/AnswerOption"/>
-        <RadioButton
+        <CheckBox
             android:text="@string/Q5A3"
             style="@style/AnswerOption"/>
-        <RadioButton
+        <CheckBox
             android:text="@string/Q5A4"
             style="@style/AnswerOption"/>
-    </RadioGroup>
+    </LinearLayout>
 
     <View style="@style/Divider" />
 

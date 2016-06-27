@@ -3,10 +3,10 @@
 
     <string name="Q1num">1.</string>
     <string name="Q1">When was the Declaration of Independence signed?</string>
-    <string name="Q1A1">July 4, 1776</string>
+    <string name="Q1A1">January 1, 1863</string>
     <string name="Q1A2">July 4, 1776</string>
-    <string name="Q1A3">July 4, 1776</string>
-    <string name="Q1A4">July 4, 1776</string>
+    <string name="Q1A3">September 17, 1787</string>
+    <string name="Q1A4">April 6, 1917</string>
 
     <string name="Q2num">2.</string>
     <string name="Q2">Which of the following were presidents of the United States?</string>
@@ -16,19 +16,20 @@
     <string name="Q2A4">Benjamin Franklin</string>
 
     <string name="Q3num">3.</string>
-    <string name="Q3">Which of the following were presidents of the United States?</string>
+    <string name="Q3">What are the five freedoms guaranteed by the First Amendment to the US Constitution?</string>
+    <string name="Q3hint">Freedom of...</string>
 
     <string name="Q4num">4.</string>
-    <string name="Q4">Which of the following were presidents of the United States?</string>
+    <string name="Q4">Where was the first US capital city?</string>
     <string name="Q4A1">Washington, DC</string>
-    <string name="Q4A2">NYC</string>
-    <string name="Q4A3">Thomas Jefferson</string>
-    <string name="Q4A4">Benjamin Franklin</string>
+    <string name="Q4A2">New York City, NY</string>
+    <string name="Q4A3">Philadelphia, PA</string>
+    <string name="Q4A4">Los Angeles, CA</string>
 
     <string name="Q5num">5.</string>
-    <string name="Q5">Which of the following were presidents of the United States?</string>
-    <string name="Q5A1">Alexander Hamilton</string>
-    <string name="Q5A2">George Washington</string>
-    <string name="Q5A3">Thomas Jefferson</string>
-    <string name="Q5A4">Benjamin Franklin</string>
+    <string name="Q5">What are the branches of the US government?</string>
+    <string name="Q5A1">Executive</string>
+    <string name="Q5A2">Financial</string>
+    <string name="Q5A3">Legislative</string>
+    <string name="Q5A4">Judicial</string>
 </resources>
