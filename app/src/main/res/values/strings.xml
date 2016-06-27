@@ -32,4 +32,6 @@
     <string name="Q5A2">Financial</string>
     <string name="Q5A3">Legislative</string>
     <string name="Q5A4">Judicial</string>
+
+    <string name="SubmitButton">All done!</string>
 </resources>
