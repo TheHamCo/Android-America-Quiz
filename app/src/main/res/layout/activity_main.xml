@@ -29,6 +29,7 @@
             android:text="@string/Q1A1"
             style="@style/AnswerOption"/>
         <RadioButton
+            android:id="@+id/q1_radio"
             android:text="@string/Q1A2"
             style="@style/AnswerOption"/>
         <RadioButton
