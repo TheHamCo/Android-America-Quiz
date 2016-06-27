@@ -40,6 +40,87 @@
 
     <View style="@style/Divider" />
 
+    <LinearLayout
+        style="@style/QuestionLayout">
+        <TextView
+            android:text="@string/Q1num"
+            style="@style/QuestionNum" />
+        <TextView
+            android:text="@string/Q1"
+            style="@style/QuestionText" />
+    </LinearLayout>
+    <RadioGroup
+        style="@style/AnswerGroup">
+        <RadioButton
+            android:text="@string/Q1A1"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A2"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A3"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A4"
+            style="@style/AnswerOption"/>
+    </RadioGroup>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        style="@style/QuestionLayout">
+        <TextView
+            android:text="@string/Q1num"
+            style="@style/QuestionNum" />
+        <TextView
+            android:text="@string/Q1"
+            style="@style/QuestionText" />
+    </LinearLayout>
+    <RadioGroup
+        style="@style/AnswerGroup">
+        <RadioButton
+            android:text="@string/Q1A1"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A2"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A3"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A4"
+            style="@style/AnswerOption"/>
+    </RadioGroup>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        style="@style/QuestionLayout">
+        <TextView
+            android:text="@string/Q1num"
+            style="@style/QuestionNum" />
+        <TextView
+            android:text="@string/Q1"
+            style="@style/QuestionText" />
+    </LinearLayout>
+    <RadioGroup
+        style="@style/AnswerGroup">
+        <RadioButton
+            android:text="@string/Q1A1"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A2"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A3"
+            style="@style/AnswerOption"/>
+        <RadioButton
+            android:text="@string/Q1A4"
+            style="@style/AnswerOption"/>
+    </RadioGroup>
+
+    <View style="@style/Divider" />
+
 </LinearLayout>
 </ScrollView>
 
