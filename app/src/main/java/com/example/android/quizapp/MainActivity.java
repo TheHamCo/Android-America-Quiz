@@ -2,9 +2,11 @@ package com.example.android.quizapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
@@ -31,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
                         msg += "\n2. Correct! Alexander Hamilton and Ben Franklin were Founding Fathers, but never presidents.\n";
                     } else {
                         msg += "\n2. Try again!\n";
+                    }
+
+                    if (checkQ3()){
+                        msg += "\n3. Correct! USA! USA! USA!\n";
+                    } else {
+                        msg += "\n3. Try Again!\n";
                     }
 
                     if (checkQ4()){
@@ -62,6 +70,17 @@ public class MainActivity extends AppCompatActivity {
         CheckBox q2Incorrect2 = (CheckBox)findViewById(R.id.q2_incorrect_checkbox_2);
 
         return q2Correct1.isChecked() && q2Correct2.isChecked() && !q2Incorrect1.isChecked() && !q2Incorrect2.isChecked();
+    }
+
+    public boolean checkQ3(){
+        EditText q3AnswerEditText = (EditText)findViewById(R.id.q3_edittext);
+        String q3Answer = q3AnswerEditText.getText().toString().toLowerCase();
+        Log.v("Question 3", q3Answer.contains("religion") + "");
+        return q3Answer.contains("religion")
+                && q3Answer.contains("speech")
+                && q3Answer.contains("press")
+                && (q3Answer.contains("assembly") || q3Answer.contains("assemble"))
+                && q3Answer.contains("petition");
     }
 
     public boolean checkQ4(){

@@ -86,6 +86,7 @@
             style="@style/QuestionText" />
     </LinearLayout>
     <EditText
+        android:id="@+id/q3_edittext"
         android:hint="@string/Q3hint"
         style="@style/AnswerGroup"/>
 
