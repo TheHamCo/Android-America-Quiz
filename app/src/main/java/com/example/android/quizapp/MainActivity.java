@@ -38,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         msg += "\n4. Try again!\n";
                     }
+
+                    if (checkQ5()){
+                        msg += "\n5. Correct!  There is no Financial branch, but the Federal Reserve is the central bank of the US.\n";
+                    } else {
+                        msg += "\n5. Try again!\n";
+                    }
                     Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
                 }
             });
@@ -58,5 +64,13 @@ public class MainActivity extends AppCompatActivity {
     public boolean checkQ4(){
         RadioButton q4Correct = (RadioButton)findViewById(R.id.q4_correct_radio);
         return q4Correct.isChecked();
+    }
+
+    public boolean checkQ5(){
+        CheckBox q5Correct1 = (CheckBox)findViewById(R.id.q5_correct_checkbox_1);
+        CheckBox q5Correct2 = (CheckBox)findViewById(R.id.q5_correct_checkbox_2);
+        CheckBox q5Correct3 = (CheckBox)findViewById(R.id.q5_correct_checkbox_3);
+        CheckBox q5Incorrect = (CheckBox)findViewById(R.id.q5_incorrect_checkbox);
+        return q5Correct1.isChecked() && q5Correct2.isChecked() && q5Correct3.isChecked() && !q5Incorrect.isChecked();
     }
 }

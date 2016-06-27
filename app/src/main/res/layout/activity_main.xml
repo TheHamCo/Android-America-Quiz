@@ -132,15 +132,19 @@
         android:orientation="vertical"
         style="@style/AnswerGroup">
         <CheckBox
+            android:id="@+id/q5_correct_checkbox_1"
             android:text="@string/Q5A1"
             style="@style/AnswerOption"/>
         <CheckBox
+            android:id="@+id/q5_incorrect_checkbox"
             android:text="@string/Q5A2"
             style="@style/AnswerOption"/>
         <CheckBox
+            android:id="@+id/q5_correct_checkbox_2"
             android:text="@string/Q5A3"
             style="@style/AnswerOption"/>
         <CheckBox
+            android:id="@+id/q5_correct_checkbox_3"
             android:text="@string/Q5A4"
             style="@style/AnswerOption"/>
     </LinearLayout>
